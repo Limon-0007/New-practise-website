@@ -1,0 +1,232 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@700&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar-brand {
+  font-family: "Mulish", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  color: #fff;
+}
+
+.navbar-brand:hover {
+  color: #fff;
+}
+
+.navbar-expand-lg {
+  width: 100%;
+  height: 100px;
+}
+.form-control {
+  width: 15%;
+  padding: 12px;
+  border: 0;
+  border-radius: 30px;
+  background-color: rgb(192, 178, 178);
+  margin-top: 10px;
+}
+
+.search {
+  padding: 10px 20px;
+  width: 70%;
+  border: 0;
+  border-radius: 35px;
+  background-color: #ffffff40;
+  outline: none;
+}
+
+.search::placeholder {
+  color: #fff !important;
+  font-family: "Mulish", sans-serif;
+  font-weight: 700;
+}
+
+.nav-item {
+  color: black;
+  font-family: "Mulish", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  margin-left: 0.7em;
+}
+
+.nav-link {
+  color: #fff;
+}
+
+.nav-link:hover {
+  color: #4db7fe;
+  transition: 0.4s;
+}
+
+.hbtn {
+  font-family: "Mulish", sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  border: 0;
+  border-radius: 30px;
+  position: relative;
+  box-sizing: border-box;
+  display: inline-block;
+  overflow: hidden;
+  padding: 12px 22px;
+  margin: 0px 3px 6px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #4db7fe;
+  color: #fff;
+  z-index: 0;
+}
+
+.hbtn i {
+  padding-right: 8px;
+}
+
+.hb-fill-right::before {
+  position: absolute;
+  content: "";
+  background: #000000;
+  transition-duration: 0.4s;
+  z-index: -1;
+  inset: 0px auto auto 0px;
+  width: 0px;
+  height: 100%;
+  opacity: 1;
+  border: 0;
+}
+
+.hb-fill-right:hover::before {
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+}
+
+.hb-fill-right:hover {
+  transition: color 0.4s ease 0s, background 0s ease 0.4s;
+}
+
+/* home section starts from here */
+
+.home {
+  display: flex;
+  background: url("https://assets.3dtotal.com/portf1-99-9-18-1.dc8smc.expanded.7j8.jpg")
+    no-repeat center;
+  background-blend-mode: darken;
+  height: 100vh;
+  min-height: 500px;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.home .max-width {
+  width: 100%;
+  display: flex;
+  position: absolute;
+}
+
+.home-content {
+  position: relative;
+  top: 22vh;
+  height: 70vh;
+  width: 100%;
+}
+
+.text-center {
+  font-family: "Mulish", sans-serif;
+  font-weight: 700;
+  font-size: 60px;
+  color: #fff;
+}
+
+.text-body {
+  font-family: "poppins", sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  color: #fff !important;
+  margin-top: 1em;
+}
+
+.input-groups {
+  position: relative;
+  left: 15vw;
+  top: 10vh;
+  background-color: #ffffff40;
+  height: 9vw;
+  width: 79%;
+  padding: 15px 10px;
+  border: 0;
+  border-radius: 10px;
+}
+
+.input1 {
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  background-color: #fff;
+  margin-left: 5px;
+  outline: none;
+}
+
+
+.input1::placeholder {
+  color: #000000;
+  font-family: "poppins", sans-serif;
+  font-weight: 400;
+}
+
+.button-blue {
+  padding: 14px 25px;
+  border: none;
+  border-radius: 5px;
+  margin-left: 1em;
+  font-family: "poppins", sans-serif;
+  font-weight: 400;
+  background-color: #4db7fe;
+  color: #fff;
+  cursor: pointer;
+  /* transition: 0.5s ease; */
+}
+
+/* .button-blue:hover {
+  background-color: #fff;
+  color: #000000;
+  border: 2px solid #4db7fe;
+  font-family: "poppins", sans-serif;
+  font-weight: 400;
+} */
+
+label {
+  color: #000000;
+  font-family: 'poppins', sans-serif;
+  font-weight: 400;
+}
+
+.buttons-down {
+  position: relative;
+  left: 20vw;
+  top: 20vh;
+}
+
+.buttons-down button {
+  padding: 10px 20px;
+  margin: 0px 10px;
+  border: 0;
+  border-radius: 24px;
+  background-color: #ffffff38;
+  color: #fff;
+  font-family: 'poppins', sans-serif;
+  font-weight: 400;
+  transition: 0.4s;
+}
+
+.btn2 {
+  background-color: #304cbb !important;
+}
+
+.buttons-down button:hover {
+  background-color: #304cbb;
+}
